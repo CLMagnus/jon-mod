@@ -1,0 +1,42 @@
+{
+  "group": "jonmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "jonmod:jonathan_block"
+    },
+    "1": {
+      "item": "jonmod:jonathan_block"
+    },
+    "2": {
+      "item": "jonmod:jonathan_block"
+    },
+    "3": {
+      "item": "jonmod:jonathan_block"
+    },
+    "4": {
+      "item": "jonmod:jonathan_block"
+    },
+    "5": {
+      "item": "jonmod:jonathan_block"
+    },
+    "6": {
+      "item": "jonmod:jonathan_block"
+    },
+    "7": {
+      "item": "jonmod:jonathan_block"
+    },
+    "8": {
+      "item": "jonmod:jonathan_block"
+    }
+  },
+  "result": {
+    "item": "jonmod:jonathan_tronathan_block",
+    "count": 1
+  }
+}

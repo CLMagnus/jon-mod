@@ -369,6 +369,87 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "jon_block_recipe"
+    },
+    {
+      "name": "GreatJonBlockRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "great_jon_block_recipe"
+    },
+    {
+      "name": "GreaterJonBlockRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "greater_jon_block_recipe"
+    },
+    {
+      "name": "JonathanBlockRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jonathan_block_recipe"
+    },
+    {
+      "name": "JonathanTronathanBlockRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jonathan_tronathan_block_recipe"
+    },
+    {
+      "name": "EchJonBlockRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ech_jon_block_recipe"
+    },
+    {
+      "name": "PrettyAlrightJonBlockRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pretty_alright_jon_block_recipe"
+    },
+    {
+      "name": "DoingWellJonBlockRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doing_well_jon_block_recipe"
+    },
+    {
+      "name": "AlmostThereJonBlockRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "almost_there_jon_block_recipe"
+    },
+    {
+      "name": "UltimateJonBlockRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimate_jon_block_recipe"
     }
   ],
   "variable_elements": [],
@@ -399,7 +480,7 @@
       "block.jonmod.jon_ore": "Jon Ore",
       "block.summerpack.ultimate_jon_block": "The Ultimate Jon Block",
       "block.jonmod.jon_block": "Jon Block",
-      "itemGroup.tabsummerpack": "Summerpack",
+      "itemGroup.tabsummerpack": "Jon Mod",
       "block.jonmod.cat_block": "Cat Block",
       "item.summerpack.jon_nugget": "Jon Nugget",
       "block.summerpack.doing_well_jon_block": "The \u0027Doing Well\u0027 Jon Block",

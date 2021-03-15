@@ -84,7 +84,7 @@ public class PrettyAlrightJonBlockBlock extends JonmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(GreatJonBlockBlock.block, (int) (8)));
+			return Collections.singletonList(new ItemStack(EchJonBlockBlock.block, (int) (8)));
 		}
 	}
 }

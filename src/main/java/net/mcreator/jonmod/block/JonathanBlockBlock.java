@@ -84,7 +84,7 @@ public class JonathanBlockBlock extends JonmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(GreatJonBlockBlock.block, (int) (8)));
+			return Collections.singletonList(new ItemStack(GreaterJonBlockBlock.block, (int) (8)));
 		}
 	}
 }

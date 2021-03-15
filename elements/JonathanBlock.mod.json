@@ -40,7 +40,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:GreatJonBlock"
+      "value": "CUSTOM:GreaterJonBlock"
     },
     "dropAmount": 8,
     "useLootTableForDrops": false,
