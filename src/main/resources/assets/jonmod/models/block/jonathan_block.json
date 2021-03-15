@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jonmod:blocks/jon_block_4",
+    "up": "jonmod:blocks/jon_block_4",
+    "north": "jonmod:blocks/jon_block_4",
+    "east": "jonmod:blocks/jon_block_4",
+    "south": "jonmod:blocks/jon_block_4",
+    "west": "jonmod:blocks/jon_block_4",
+    "particle": "jonmod:blocks/jon_block_4"
+  }
+}

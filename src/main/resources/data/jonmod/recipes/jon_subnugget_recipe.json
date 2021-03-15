@@ -1,0 +1,16 @@
+{
+  "group": "jonmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "jonmod:jon_nugget"
+    }
+  },
+  "result": {
+    "item": "jonmod:jon_subnugget",
+    "count": 9
+  }
+}

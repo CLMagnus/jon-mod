@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jonmod:blocks/lvl8",
+    "up": "jonmod:blocks/lvl8",
+    "north": "jonmod:blocks/lvl8",
+    "east": "jonmod:blocks/lvl8",
+    "south": "jonmod:blocks/lvl8",
+    "west": "jonmod:blocks/lvl8",
+    "particle": "jonmod:blocks/lvl8"
+  }
+}

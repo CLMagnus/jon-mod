@@ -1,0 +1,13 @@
+{
+  "group": "jonmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jonmod:jon"
+    }
+  ],
+  "result": {
+    "item": "jonmod:jon_nugget",
+    "count": 9
+  }
+}

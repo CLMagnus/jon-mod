@@ -1,0 +1,24 @@
+{
+  "group": "jonmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "jonmod:gloves_chestplate"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "6": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "jonmod:slappy_hand",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "jonmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "jonmod:jon_subnugget"
+    },
+    "1": {
+      "item": "jonmod:jon_subnugget"
+    },
+    "2": {
+      "item": "jonmod:jon_subnugget"
+    },
+    "3": {
+      "item": "jonmod:jon_subnugget"
+    },
+    "4": {
+      "item": "jonmod:jon_subnugget"
+    },
+    "5": {
+      "item": "jonmod:jon_subnugget"
+    },
+    "6": {
+      "item": "jonmod:jon_subnugget"
+    },
+    "7": {
+      "item": "jonmod:jon_subnugget"
+    },
+    "8": {
+      "item": "jonmod:jon_subnugget"
+    }
+  },
+  "result": {
+    "item": "jonmod:jon_nugget",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "jonmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "1": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "2": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "3": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "4": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "5": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "6": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "7": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "8": {
+      "item": "minecraft:cat_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "jonmod:cat_block",
+    "count": 1
+  }
+}

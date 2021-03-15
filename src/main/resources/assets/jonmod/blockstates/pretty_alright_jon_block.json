@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jonmod:block/pretty_alright_jon_block"
+    },
+    "facing=east": {
+      "model": "jonmod:block/pretty_alright_jon_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jonmod:block/pretty_alright_jon_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jonmod:block/pretty_alright_jon_block",
+      "y": 270
+    }
+  }
+}

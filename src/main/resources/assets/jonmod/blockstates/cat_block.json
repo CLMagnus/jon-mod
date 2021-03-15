@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "jonmod:block/cat_block"
+    }
+  }
+}

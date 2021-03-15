@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="jonmod"
+version="1.0.0"
+displayName="Jon Mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="C.L. Magnus"
+description='''
+A dumb mod that adds in 'Jons' with a few things added for flavour.
+'''
+
+[[dependencies.jonmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

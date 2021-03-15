@@ -1,0 +1,26 @@
+{
+  "group": "jonmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:wool"
+    },
+    "2": {
+      "tag": "minecraft:wool"
+    },
+    "3": {
+      "tag": "minecraft:wool"
+    },
+    "5": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "jonmod:gloves_chestplate",
+    "count": 1
+  }
+}

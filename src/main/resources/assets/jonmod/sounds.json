@@ -1,0 +1,12 @@
+{
+  "slappyhandhit": {
+    "category": "player",
+    "subtitle": "subtitles.slappyhandhit",
+    "sounds": [
+      {
+        "name": "jonmod:slappyhandhit",
+        "stream": false
+      }
+    ]
+  }
+}

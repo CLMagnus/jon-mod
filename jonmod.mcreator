@@ -1,0 +1,451 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CatBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat_block"
+    },
+    {
+      "name": "CatBlockBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat_block_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Summerpack",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "summerpack"
+    },
+    {
+      "name": "Jon",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon"
+    },
+    {
+      "name": "JonNugget",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_nugget"
+    },
+    {
+      "name": "JonSubnugget",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_subnugget"
+    },
+    {
+      "name": "SlappyHand",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slappy_hand"
+    },
+    {
+      "name": "Gloves",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gloves",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "JonSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_sword"
+    },
+    {
+      "name": "SlappyHandToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slappy_hand_tool_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JonOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_ore"
+    },
+    {
+      "name": "JonBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_block"
+    },
+    {
+      "name": "CatBlockRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat_block_recipe"
+    },
+    {
+      "name": "SlappyHandLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slappy_hand_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreatJonBlock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "great_jon_block"
+    },
+    {
+      "name": "GreaterJonBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "greater_jon_block"
+    },
+    {
+      "name": "JonathanBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jonathan_block"
+    },
+    {
+      "name": "JonathanTronathanBlock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jonathan_tronathan_block"
+    },
+    {
+      "name": "EchJonBlock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ech_jon_block"
+    },
+    {
+      "name": "PrettyAlrightJonBlock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pretty_alright_jon_block"
+    },
+    {
+      "name": "DoingWellJonBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doing_well_jon_block"
+    },
+    {
+      "name": "AlmostThereJonBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "almost_there_jon_block"
+    },
+    {
+      "name": "UltimateJonBlock",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimate_jon_block"
+    },
+    {
+      "name": "SlappyHandRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slappy_hand_recipe"
+    },
+    {
+      "name": "SlappyHandRecipe2",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slappy_hand_recipe_2"
+    },
+    {
+      "name": "JonNuggetRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_nugget_recipe"
+    },
+    {
+      "name": "JonNuggetRecipe2",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_nugget_recipe_2"
+    },
+    {
+      "name": "JonSubnuggetRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_subnugget_recipe"
+    },
+    {
+      "name": "JonSubnuggetRecipe2",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_subnugget_recipe_2"
+    },
+    {
+      "name": "GlovesRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gloves_recipe"
+    },
+    {
+      "name": "GlovesRecipe2",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gloves_recipe_2"
+    },
+    {
+      "name": "JonSwordRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_sword_recipe"
+    },
+    {
+      "name": "JonSwordRecipe2",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_sword_recipe_2"
+    },
+    {
+      "name": "JonSwordRecipe3",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_sword_recipe_3"
+    },
+    {
+      "name": "JonBlockRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jon_block_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "slappyhandhit",
+      "files": [
+        "slappyhandhit"
+      ],
+      "category": "player",
+      "subtitle": "Slappy Hand Hit"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.summerpack.greater_jon_block": "The Greater Jon Block",
+      "block.summerpack.jon_ore": "Jon Ore",
+      "block.summerpack.pretty_alright_jon_block": "The \u0027Pretty Alright\u0027 Jon Block",
+      "block.summerpack.great_jon_block": "The Great Jon Block",
+      "item.summerpack.gloves_chestplate": "Gloves",
+      "block.jonmod.great_jon_block": "The Great Jon Block",
+      "item.jonmod.slappy_hand": "Slappy Hand",
+      "item.jonmod.jon_sword": "Jon Sword",
+      "block.jonmod.almost_there_jon_block": "The \u0027Almost There\u0027 Jon Block",
+      "item.jonmod.gloves_boots": "Gloves Boots",
+      "item.jonmod.gloves_helmet": "Gloves Helmet",
+      "block.summerpack.jonathan_tronathan_block": "The Jonathan Tronathan Block",
+      "block.jonmod.jon_ore": "Jon Ore",
+      "block.summerpack.ultimate_jon_block": "The Ultimate Jon Block",
+      "block.jonmod.jon_block": "Jon Block",
+      "itemGroup.tabsummerpack": "Summerpack",
+      "block.jonmod.cat_block": "Cat Block",
+      "item.summerpack.jon_nugget": "Jon Nugget",
+      "block.summerpack.doing_well_jon_block": "The \u0027Doing Well\u0027 Jon Block",
+      "item.summerpack.jon_subnugget": "Jon Subnugget",
+      "item.summerpack.gloves_helmet": "Gloves Helmet",
+      "item.summerpack.slappy_hand": "Slappy Hand",
+      "block.jonmod.jonathan_tronathan_block": "The Jonathan Tronathan Block",
+      "item.jonmod.jon_nugget": "Jon Nugget",
+      "item.jonmod.jon_subnugget": "Jon Subnugget",
+      "item.summerpack.jon_sword": "Jon Sword",
+      "block.summerpack.jon_block": "Jon Block",
+      "item.jonmod.gloves_leggings": "Gloves Leggings",
+      "item.jonmod.jon": "Jon",
+      "block.jonmod.ech_jon_block": "The \u0027ech\u0027 Jon Block",
+      "item.summerpack.gloves_leggings": "Gloves Leggings",
+      "subtitles.slappyhandhit": "Slappy Hand Hit",
+      "block.jonmod.doing_well_jon_block": "The \u0027Doing Well\u0027 Jon Block",
+      "block.jonmod.jonathan_block": "The Jonathan Block",
+      "block.jonmod.pretty_alright_jon_block": "The \u0027Pretty Alright\u0027 Jon Block",
+      "item.summerpack.gloves_boots": "Gloves Boots",
+      "item.summerpack.jon": "Jon",
+      "block.summerpack.cat_block": "Cat Block",
+      "block.jonmod.greater_jon_block": "The Greater Jon Block",
+      "block.jonmod.ultimate_jon_block": "The Ultimate Jon Block",
+      "block.summerpack.almost_there_jon_block": "The \u0027Almost There\u0027 Jon Block",
+      "block.summerpack.ech_jon_block": "The \u0027ech\u0027 Jon Block",
+      "block.summerpack.jonathan_block": "The Jonathan Block",
+      "item.jonmod.gloves_chestplate": "Gloves"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "jonmod",
+    "modName": "Jon Mod",
+    "version": "1.0.0",
+    "description": "A dumb mod that adds in \u0027Jons\u0027 with a few things added for flavour.",
+    "author": "C.L. Magnus",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.4",
+    "modElementsPackage": "net.mcreator.jonmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100103117
+}

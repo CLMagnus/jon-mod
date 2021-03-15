@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jonmod:blocks/iron_ore",
+    "up": "jonmod:blocks/iron_ore",
+    "north": "jonmod:blocks/iron_ore",
+    "east": "jonmod:blocks/iron_ore",
+    "south": "jonmod:blocks/iron_ore",
+    "west": "jonmod:blocks/iron_ore",
+    "particle": "jonmod:blocks/iron_ore"
+  }
+}
