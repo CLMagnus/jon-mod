@@ -45,8 +45,10 @@ public class JonmodModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public JonmodModElements() {
-		sounds.put(new ResourceLocation("jonmod", "slappyhandhit"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("jonmod", "slappyhandhit")));
+		sounds.put(new ResourceLocation("jonmod", "clown_music"), new net.minecraft.util.SoundEvent(new ResourceLocation("jonmod", "clown_music")));
+		sounds.put(new ResourceLocation("jonmod", "slappy_hand_hit"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("jonmod", "slappy_hand_hit")));
+		sounds.put(new ResourceLocation("jonmod", "clown_horn"), new net.minecraft.util.SoundEvent(new ResourceLocation("jonmod", "clown_horn")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("jonmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

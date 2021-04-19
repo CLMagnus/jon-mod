@@ -1,0 +1,31 @@
+{
+  "_fv": 17,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "clown",
+    "customModelName": "Normal",
+    "name": "Clown",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "§7a little buddy"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Summerpack"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 20,
+    "saturation": 20.0,
+    "eatingSpeed": 128,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "ClownFoodEaten"
+    }
+  }
+}

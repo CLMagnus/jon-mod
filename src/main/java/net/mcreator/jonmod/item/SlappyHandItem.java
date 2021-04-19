@@ -13,7 +13,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
-import net.minecraft.block.Blocks;
 
 import net.mcreator.jonmod.procedures.SlappyHandToolInInventoryTickProcedure;
 import net.mcreator.jonmod.procedures.SlappyHandLivingEntityIsHitWithToolProcedure;
@@ -39,11 +38,11 @@ public class SlappyHandItem extends JonmodModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 0f;
 			}
 
 			public float getAttackDamage() {
-				return -1.999f;
+				return -1.9f;
 			}
 
 			public int getHarvestLevel() {
@@ -55,8 +54,7 @@ public class SlappyHandItem extends JonmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(Blocks.WHITE_WOOL, (int) (1)), new ItemStack(GlovesItem.body, (int) (1)),
-						new ItemStack(SlappyHandItem.block, (int) (1)));
+				return Ingredient.EMPTY;
 			}
 		}, 3, 6f, new Item.Properties().group(SummerpackItemGroup.tab)) {
 			@Override

@@ -1,10 +1,30 @@
 {
-  "slappyhandhit": {
+  "clown_music": {
+    "category": "record",
+    "subtitle": "subtitles.clown_music",
+    "sounds": [
+      {
+        "name": "jonmod:clown_music",
+        "stream": true
+      }
+    ]
+  },
+  "slappy_hand_hit": {
     "category": "player",
-    "subtitle": "subtitles.slappyhandhit",
+    "subtitle": "subtitles.slappy_hand_hit",
     "sounds": [
       {
         "name": "jonmod:slappyhandhit",
+        "stream": false
+      }
+    ]
+  },
+  "clown_horn": {
+    "category": "player",
+    "subtitle": "subtitles.clown_horn",
+    "sounds": [
+      {
+        "name": "jonmod:clown_horn",
         "stream": false
       }
     ]

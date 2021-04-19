@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 17,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -12,24 +12,14 @@
     },
     "toolType": "Sword",
     "harvestLevel": 0,
-    "efficiency": 4.0,
+    "efficiency": 0.0,
     "attackSpeed": 10.0,
     "enchantability": 0,
-    "damageVsEntity": 0.001,
+    "damageVsEntity": 0.1,
     "usageCount": 0,
     "blocksAffected": [],
     "hasGlow": true,
-    "repairItems": [
-      {
-        "value": "Blocks.WOOL#0"
-      },
-      {
-        "value": "CUSTOM:Gloves.body"
-      },
-      {
-        "value": "CUSTOM:SlappyHand"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,

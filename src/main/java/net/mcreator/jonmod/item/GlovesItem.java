@@ -43,7 +43,7 @@ public class GlovesItem extends JonmodModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{0, 0, 0, 0}[slot.getIndex()];
 			}
 
 			@Override
