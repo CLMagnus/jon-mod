@@ -46,11 +46,11 @@ public class SlappyHandLivingEntityIsHitWithToolProcedure extends JonmodModEleme
 		IWorld world = (IWorld) dependencies.get("world");
 		if (world instanceof World && !world.isRemote()) {
 			((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("jonmod:slappyhandhit")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("jonmod:slappy_hand_hit")),
 					SoundCategory.NEUTRAL, (float) 0.5, (float) 1);
 		} else {
 			((World) world).playSound(x, y, z,
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("jonmod:slappyhandhit")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("jonmod:slappy_hand_hit")),
 					SoundCategory.NEUTRAL, (float) 0.5, (float) 1, false);
 		}
 	}
