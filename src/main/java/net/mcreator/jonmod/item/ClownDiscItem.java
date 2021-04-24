@@ -2,7 +2,6 @@
 package net.mcreator.jonmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Rarity;
@@ -26,7 +25,7 @@ public class ClownDiscItem extends JonmodModElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("music_disc.mellohi")),
+			super(0, JonmodModElements.sounds.get(new ResourceLocation("jonmod:clown_music")),
 					new Item.Properties().group(SummerpackItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("clown_disc");
 		}
